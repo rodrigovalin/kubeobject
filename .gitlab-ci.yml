@@ -8,6 +8,8 @@ before_script:
 - python setup.py install
 
 test:
+  tags:
+  - minikube
   stage: test
   script:
   - pytest
