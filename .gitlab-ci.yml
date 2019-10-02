@@ -1,11 +1,9 @@
-image:
-  name: python:3.7-slim
-
 stages:
 - test
 - publish
 
 before_script:
+- scripts/ci/install-deps
 - pip install -r requirements-test.txt
 - python setup.py install
 
