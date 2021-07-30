@@ -4,7 +4,7 @@ kubernetes==17.17.0
 pymongo==3.7.1
 PyYAML==5.1
 requests==2.22.0
-urllib3==1.25.3
+urllib3==1.26.5
 dnspython==1.16.0
 cryptography==2.7
 python-box==5.3.0
